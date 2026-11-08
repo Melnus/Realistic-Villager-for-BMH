@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "RealisticVillager for BMH[0017]",
+    "description": "村人拡張アドオン",
+    "uuid": "49fa65e7-e8cb-4e46-9507-b82d135b2173",
+    "version": [
+      0,
+      0,
+      17
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b714f25d-15f5-4b38-9c6f-996212c65a42",
+      "entry": "scripts/main.js",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ]
+}
